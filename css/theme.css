@@ -3,6 +3,6 @@
   src: ../fonts/Lobster-Regular.ttf;
 }
 
-div {
+#BigHeader {
   font-family: lobster;
 }
