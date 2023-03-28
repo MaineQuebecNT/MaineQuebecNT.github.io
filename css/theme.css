@@ -1,1 +1,8 @@
+@font-face {
+  font-family: lobster;
+  src: ../fonts/Lobster-Regular.ttf;
+}
 
+div {
+  font-family: lobster;
+}
