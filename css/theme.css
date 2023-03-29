@@ -2,6 +2,7 @@ body {
 	background-image: url("../img/bg.jpg");
 	background-repeat: no-repeat;
 	background-position: right;
+	background-width: 100%;
 }
 
 @font-face {
