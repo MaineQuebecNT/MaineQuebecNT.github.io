@@ -2,6 +2,8 @@ body {
 	background-image: url("bg.jpg");
 	background-repeat: no-repeat;
 	background-position: left;
+	background-color: #F1FAEE;
+	background-width: 100%;
 }
 
 @font-face {
@@ -40,10 +42,6 @@ h2.Header {
 html, body {
 	margin: 0;
 	padding: 0;
-}
-
-body {
-	color: #292929;
 }
 
 p {
