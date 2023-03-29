@@ -1,8 +1,177 @@
+body {
+  	background-color: #F1FAEE;
+	background-image: url("../images/Dream_Background.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 100%;
+}
+
 @font-face {
   font-family: lobster;
   src: url('../fonts/Lobster-Regular.ttf');
 }
 
-#BigHeader {
-  font-family: lobster;
+@font-face {
+  font-family: raleway;
+  src: url('../fonts/Raleway.ttf');
+}
+
+h1.BigHeader1 {
+	font-family: lobster;
+	font-size: 120px;	
+	color: #E63946;
+	margin: 0 0 0 100px;
+	padding: 50px 0 0 0;
+}
+
+h1.BigHeader2 {
+	font-family: lobster;
+	font-size: 120px;	
+	color: #E63946;
+	padding: 0 0 0 40px;
+	margin: -70px 0 0 100px;
+}
+
+h2.Header {
+	font-family: raleway;
+	font-size: 70px;
+	margin: -30px 0 30px 120px;
+	color: #1D3557;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #292929;
+}
+
+p {
+	padding: 0 10px;
+	line-height: 1.8;
+}
+
+ul li {
+	padding-right: 10px;
+	line-height: 1.6;
+}
+
+h3 {
+	padding: 5px 20px;
+	margin: 0;
+}
+
+div#header {
+	position: relative;
+}
+
+div#header a {
+	position: absolute;
+	right: 0;
+	top: 23px;
+	padding: 10px;
+	color: #006;
+}
+
+div#navigation {
+	background: #1D3557;
+	color: #A8DADC;
+	border-radius: 8px 8px 2px 2px;
+}
+
+div#navigation li {
+        list-style: none;
+	font-size: 30px;
+	font-family: lobster;
+	float: left;
+	padding: 0 0 0 0;
+}
+
+div#navigation li {
+        list-style: none;
+	font-size: 30px;
+	font-family: lobster;
+	float: left;
+	padding: 0 15px 0 0;
+}
+
+div#navigation li.first:before {
+	content:" "; 
+	font-size:14pt; 
+	margin: 0 15px 0 15px;
+}
+
+div#navigation li.bullet:before {
+        content:"*"; 
+	font-size: 20px;
+	color: #F1FAEE;
+	margin: 0 15px 0 0;
+}
+
+div#extra {
+	background: #147FA9;
+}
+
+div#footer {	
+	background: #1D3557;
+	color: #fff;
+	margin: 0 0 -16px 0;
+	border-radius: 0 0 10px 10px;
+}
+
+div#footer p {	
+	padding: 20px 10px;
+}
+
+div#container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+div#wrapper {
+	margin: 10px 150px 90px 0;
+	width: 1120px;
+	border-width: 90px 45px 90px 45px;
+	border-style: solid;
+	border-color: #FFF;
+	background: #F1FAEE;
+}
+
+div#content {	
+	margin: 0;
+	padding: 80px 100px 40px 100px;	
+	width: 1000px;
+	font-family: raleway;
+	font-size: 20px;
+	color: #1D3557;
+}	
+
+div#content p {
+	font-family: raleway;
+	font-size: 25px;
+}
+
+div#navigation {
+	margin: -15px 0 0 55px;
+	float: left;
+	width: 1100px;
+}
+
+div#navigation ul {
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+}
+
+div#extra {
+	float: left;
+	clear: left;
+	width: 300px;
+}	
+
+div#footer {
+	clear: both;
+	width: 100%;
 }
