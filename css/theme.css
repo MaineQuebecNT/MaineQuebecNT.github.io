@@ -1,7 +1,7 @@
 body {
-	background-image: url(bg.jpg);
+	background-image: url("bg.jpg");
 	background-repeat: no-repeat;
-	background-width: 100%;
+	background-position: left;
 }
 
 @font-face {
