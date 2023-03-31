@@ -1,14 +1,18 @@
 body {
-	background-image: url("bg.jpg");
+	background-image: url("bg_img.jpg");
 	background-repeat: no-repeat;
-	background-position: left;
-	background-color: #F1FAEE;
+	background-color: #F5EBA3;
 	background-width: 100%;
 }
 
 @font-face {
   font-family: lobster;
   src: url('../fonts/Lobster-Regular.ttf');
+}
+
+@font-face {
+  font-family: hand;
+  src: url('../fonts/DeliciousHandrawn-Regular.ttf');
 }
 
 @font-face {
@@ -20,23 +24,102 @@ h1.BigHeader1 {
 	font-family: lobster;
 	font-size: 120px;	
 	color: #E63946;
-	margin: 0 0 0 100px;
-	padding: 50px 0 0 0;
+	margin: 0 0 0 120px;
+	padding: 90px 0 0 0;
 }
 
 h1.BigHeader2 {
 	font-family: lobster;
 	font-size: 120px;	
 	color: #E63946;
-	padding: 0 0 0 40px;
-	margin: -70px 0 0 100px;
+	padding: 0;
+	margin: -70px 0 0 130px;
 }
 
 h2.Header {
 	font-family: raleway;
-	font-size: 70px;
-	margin: -30px 0 30px 120px;
+	font-size: 40px;
+	margin: -30px 0 0 40px;
 	color: #1D3557;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+
+div#dates {
+	padding: 70px 0 0 0;
+	margin: 0 20px 0 0;
+	color: #1D3557;
+	position: fixed;
+	right: 5%;
+	z-index: 1;
+}
+
+div#dates1 {
+	text-align: center;
+	font-family: raleway;
+	float: right;
+	position: relative;
+}
+
+div#slash {
+	text-align: center;
+	font-family: lobster;
+	color: #F1FAEE;
+	float: right;
+	position: relative;
+	margin: 15px -25px 0 0;
+	z-index: 1;
+}
+
+div#dates2 {
+	text-align: center;
+	font-family: raleway;
+	float: right;
+	position: relative;
+}
+
+
+div#dates1 h1.Month {
+	padding: 0;
+	margin: -30px 0;
+	font-size: 73px;
+}
+
+div#dates1 h3.Days {
+	padding: 0;
+	margin: -51px 0 0 0;
+	font-size: 125px;
+}
+
+div#dates1 h1.Days {
+	font-size: 26px;
+	padding: 0;
+	margin: 0;
+}
+
+div#dates2 h1.Month {
+	padding: 0;
+	margin: -52px 0;
+	font-size: 73px;
+}
+
+div#dates2 h3.Days {
+	padding: 0;
+	margin: -64px 0 0 0;
+	font-size: 155px;
+}
+
+div#dates2 h1.Days {
+	font-size: 26px;
+	padding: 0;
+	margin: 0;
+}
+
+div#slash h3 {
+	font-size: 100px;
+	padding: 0;
+	margin: 0;
 }
 
 html, body {
@@ -74,85 +157,77 @@ div#header a {
 div#navigation {
 	background: #1D3557;
 	color: #A8DADC;
-	border-radius: 8px 8px 2px 2px;
+	margin: -90px 20px -50px 0;
+	padding: 20px 0 20px 0;
+	width: 350px;
+	z-index: 1;
+    	position: fixed;
+	right: 5%;
+	border-radius: 30px;
+}
+
+div#navigation a {
+        color: #A8DADC;
+	text-decoration: none;
+	padding: 5px 15px 5px 30px;
+	width: 100%;
+	display: block;
+}
+
+div#navigation a:hover {
+        background-color: #A8DADC;	
+	color: #1D3557;
+	text-decoration: none;
+}
+
+div#navigation ul {
+	padding: 0;
+	margin: 30px 0 0 0;
 }
 
 div#navigation li {
         list-style: none;
-	font-size: 30px;
+	font-size: 23px;
 	font-family: lobster;
-	float: left;
-	padding: 0 0 0 0;
-}
-
-div#navigation li {
-        list-style: none;
-	font-size: 30px;
-	font-family: lobster;
-	float: left;
-	padding: 0 15px 0 0;
-}
-
-div#navigation li.first:before {
-	content:" "; 
-	font-size:14pt; 
-	margin: 0 15px 0 15px;
-}
-
-div#navigation li.bullet:before {
-        content:"*"; 
-	font-size: 20px;
-	color: #F1FAEE;
-	margin: 0 15px 0 0;
-}
-
-div#extra {
-	background: #147FA9;
-}
-
-div#footer {	
-	background: #1D3557;
-	color: #fff;
-	margin: 0 0 -16px 0;
-	border-radius: 0 0 10px 10px;
-}
-
-div#footer p {	
-	padding: 20px 10px;
+	padding: 0;
+	margin: 0 0 0 -15px;
 }
 
 div#container {
-	width: 1200px;
+	width: 90%;
 	margin: 0 auto;
+	padding: 0 0 0 2%;
 }
 
 div#wrapper {
-	margin: 10px 150px 90px 0;
-	width: 1120px;
-	border-width: 90px 45px 90px 45px;
-	border-style: solid;
-	border-color: #FFF;
-	background: #F1FAEE;
+	margin: 50px 0 10px 0;
+	width: 95%;
 }
 
-div#content {	
-	margin: 0;
-	padding: 80px 100px 40px 100px;	
-	width: 1000px;
+div#content {		
+	padding: 30px 20% 50px 30px;
+	width: auto;
 	font-family: raleway;
 	font-size: 20px;
 	color: #1D3557;
 }	
 
-div#content p {
-	font-family: raleway;
-	font-size: 25px;
+div#content h2 {
+	font-size: 30px;
+	padding: 0 0 10px 0;
 }
 
-div#navigation {
-	margin: -15px 0 0 55px;
-	float: left;
-	width: 1100px;
+div#content p {
+	font-family: raleway;
+	font-size: 20px;
+	margin: 0;
+}
+
+
+div#content h4 {
+	font-family: raleway;
+	font-size: 20px;
+	padding: 10px;
 }
 
 div#navigation ul {
@@ -170,4 +245,70 @@ div#extra {
 div#footer {
 	clear: both;
 	width: 100%;
+}
+
+div.section {
+	background-color: rgba(255,255,255,0.6);
+	padding: 30px 15% 30px 30px;
+	margin: 0 0 50px 0;
+}
+
+div.section h2{
+	text-align:center;
+}
+
+div#Organization {
+	height: auto;
+	overflow: auto;
+}
+
+div#Organization ul {
+	list-style-type: none;
+}
+
+div#Organization li {
+	float: left;
+	text-align: center;
+	display: block;
+	padding: 15px;
+	background: #FFF;
+	margin: 25px;
+	font-size: 20px;
+	box-shadow: 10px 10px 8px  rgba(0, 0, 0, 0.2);
+	font-family: hand;
+}
+
+div#Organization img {
+        display: block;
+        width: 118px;
+	margin: 0 0 15px 0;
+}
+
+div#Programme ul {
+	list-style-type: none;
+}
+
+
+div.speaker {
+	text-align: center;
+	display: block;
+	padding: 15px;
+	background: #FFF;
+	margin: 25px;
+	font-size: 20px;
+	box-shadow: 10px 10px 8px  rgba(0, 0, 0, 0.2);
+	font-family: hand;
+	width: 200px;
+}
+
+div#Programme img {
+        display: block;
+        width: 200px;
+	margin: 0 0 15px 0;
+	float: left;
+}
+
+div.SpeakerProfile {
+	float: left;
+	margin: -350px 0 0 300px;
 }
