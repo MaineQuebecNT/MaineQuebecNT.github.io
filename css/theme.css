@@ -195,6 +195,7 @@ div#navigation li {
 
 div#container {
 	width: 90%;
+	min-width: 800px;
 	margin: 0 auto;
 	padding: 0 0 0 2%;
 }
