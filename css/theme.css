@@ -203,6 +203,7 @@ div#container {
 div#wrapper {
 	margin: 50px 0 10px 0;
 	width: 95%;
+	min-width: 800px;
 }
 
 div#content {		
