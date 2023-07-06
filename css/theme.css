@@ -528,4 +528,7 @@ div#content {
 	font-size: 20px;
 	color: #1D3557;
 }
+
+div#sponsors img {
+	float: left;
 }
