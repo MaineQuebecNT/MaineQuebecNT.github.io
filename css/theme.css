@@ -532,3 +532,14 @@ div#content {
 div#sponsors img {
 	float: left;
 }
+
+div#sponsors a {
+	color: #E63946;
+	text-decoration: none;
+}
+
+div#sponsors a.hover {
+	background: #E63946;
+	color: #FFF;
+	text-decoration: none;
+}
