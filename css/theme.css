@@ -66,7 +66,7 @@ div#dates1 {
 div#slash {
 	text-align: center;
 	font-family: lobster;
-	color: #FFF;
+	color: #a8dadc;
 	float: right;
 	position: relative;
 	margin: 15px -25px 0 0;
@@ -538,7 +538,7 @@ div#sponsors a {
 	text-decoration: none;
 }
 
-div#sponsors a.hover {
+div#sponsors a:hover {
 	background: #E63946;
 	color: #FFF;
 	text-decoration: none;
