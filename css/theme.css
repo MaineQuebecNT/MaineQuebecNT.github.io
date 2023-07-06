@@ -543,3 +543,7 @@ div#sponsors a.hover {
 	color: #FFF;
 	text-decoration: none;
 }
+
+div#sponsors ul {
+	list-style-type: none;
+}
