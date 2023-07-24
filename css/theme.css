@@ -21,6 +21,8 @@ body {
   src: url('../fonts/Raleway.ttf');
 }
 
+h2.SectionTitle {font-family: lobster; font-size: 45px; padding: 0 0 0 40px;}
+
 h1.BigHeader1 {
 	font-family: lobster;
 	font-size: 120px;	
@@ -213,11 +215,6 @@ div#content {
 	color: #1D3557;
 }	
 
-div#content h2 {
-	font-size: 30px;
-	padding: 0 0 10px 0;
-}
-
 div#content p {
 	font-family: raleway;
 	font-size: 20px;
@@ -333,6 +330,47 @@ div.SpeakerProfile {
 	float: left;
 	margin: -350px 0 0 300px;
 	height: auto;
+}
+
+div.sponsor {
+	width: 120px;
+}
+
+div#Sponsors {
+	height: auto;
+	overflow: auto;
+}
+
+div#Sponsors img {
+	padding: 10px;
+	background: #FFF;
+}
+
+div#Sponsors a {
+	color: #E63946;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+div#Sponsors a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+div#Sponsors ul {
+	list-style: none;
+	padding: 30px 0 60px 60px;
+}
+
+div#Sponsors li {
+	float: left;
+	display: block;
+	margin: 0 70px 30px 0;
+	background: #1D3557;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 8px  rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 1200px) {
@@ -529,21 +567,3 @@ div#content {
 	color: #1D3557;
 }
 
-div#Sponsors img {
-	float: left;
-}
-
-div#Sponsors a {
-	color: #E63946;
-	text-decoration: none;
-}
-
-div#Sponsors a:hover {
-	background: #E63946;
-	color: #FFF;
-	text-decoration: none;
-}
-
-div#Sponsors ul {
-	list-style: none;
-}
