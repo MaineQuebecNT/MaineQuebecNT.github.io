@@ -448,17 +448,17 @@ div#navigation li a{
 }
 
 div#FirstNav {
-	width:330px;
-	margin: 0 0 0 -185px;
-	left:50%;
-	position: relative;	
+	width:100%;
+	position: relative;
+	display: block;	
+	float: left;
 }
 
 div#SecondNav {
-	width:450px;
-	margin: 0 0 0 -225px;
-	left:50%;
-	position: relative;	
+	width:100%;
+	position: relative;
+	display: block;	
+	float: left;
 }
 
 div#container {
