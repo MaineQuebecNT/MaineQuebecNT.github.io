@@ -368,6 +368,16 @@ div#Practical a:hover {
 	text-decoration: none;
 }
 
+div#Invited a {
+	color: #E63946;
+	text-decoration: none;
+}
+
+div#Invited a:hover {
+	color: #a8dadc;
+	text-decoration: none;
+}
+
 div#Sponsors ul {
 	list-style: none;
 	padding: 30px 0 60px 60px;
