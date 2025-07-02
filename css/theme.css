@@ -283,7 +283,7 @@ div#Organization img {
 	margin: 0 0 15px 0;
 }
 
-div#Programme {
+div#Program {
 	height: auto;
 	overflow: auto;
 }
@@ -301,7 +301,7 @@ div#Invited {
 	margin: 70px 0 0 0;
 }
 
-div#Programme ul {
+div#Program ul {
 	list-style-type: none;
 }
 
@@ -319,7 +319,7 @@ div.speaker {
 	float: left;
 }
 
-div#Programme img {
+div#Program img {
         display: block;
         width: 200px;
 	margin: 0 0 15px 0;
