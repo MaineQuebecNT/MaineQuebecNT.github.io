@@ -301,7 +301,6 @@ div#Plenary td {
 div#Invited {
 	height: auto;
 	overflow: auto;
-	
 	margin: 70px 0 0 0;
 }
 
@@ -331,7 +330,6 @@ div#Program img {
 }
 
 div.SpeakerProfile {
-	float: left;
 	margin: 0px 0 0 0px;
 	height: auto;
 }
