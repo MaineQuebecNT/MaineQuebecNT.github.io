@@ -291,13 +291,17 @@ div#Program {
 div#Plenary {
 	height: auto;
 	overflow: auto;
-	float: left;
+	
+}
+
+div#Plenary td {
+	vertical-align: top;
 }
 
 div#Invited {
 	height: auto;
 	overflow: auto;
-	float: left;
+	
 	margin: 70px 0 0 0;
 }
 
@@ -328,9 +332,10 @@ div#Program img {
 
 div.SpeakerProfile {
 	float: left;
-	margin: -350px 0 0 300px;
+	margin: 0px 0 0 0px;
 	height: auto;
 }
+
 
 div.sponsor {
 	width: 120px;
@@ -339,6 +344,10 @@ div.sponsor {
 div#Sponsors {
 	height: auto;
 	overflow: auto;
+}
+
+div.PriorYears {
+	width: 120px;
 }
 
 div#Sponsors img {
