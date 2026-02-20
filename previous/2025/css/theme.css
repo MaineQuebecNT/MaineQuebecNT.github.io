@@ -1,0 +1,596 @@
+body {
+	background-image: url("bg_img.jpg");
+	background-repeat: no-repeat;
+	background-color: #fcf9d0;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+@font-face {
+  font-family: lobster;
+  src: url('../fonts/Lobster-Regular.ttf');
+}
+
+@font-face {
+  font-family: hand;
+  src: url('../fonts/DeliciousHandrawn-Regular.ttf');
+}
+
+@font-face {
+  font-family: raleway;
+  src: url('../fonts/Raleway.ttf');
+}
+
+h2.SectionTitle {font-family: lobster; font-size: 45px; padding: 0 0 0 40px;}
+
+h1.BigHeader1 {
+	font-family: lobster;
+	font-size: 120px;	
+	color: #E63946;
+	margin: 0 0 0 120px;
+	padding: 90px 0 0 0;
+}
+
+h1.BigHeader2 {
+	font-family: lobster;
+	font-size: 120px;	
+	color: #E63946;
+	padding: 0;
+	margin: -70px 0 0 130px;
+}
+
+h2.Header {
+	font-family: raleway;
+	font-size: 40px;
+	margin: -30px 0 0 40px;
+	color: #1D3557;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+
+div#dates {
+	padding: 0 0 0 0;
+	margin:-180px 20px 0 0;
+	color: #1D3557;
+	position: fixed;
+	right: 5%;
+	z-index: 1;
+}
+
+div#dates1 {
+	text-align: center;
+	font-family: raleway;
+	float: right;
+	position: relative;
+}
+
+div#slash {
+	text-align: center;
+	font-family: lobster;
+	color: #a8dadc;
+	float: right;
+	position: relative;
+	margin: 15px -25px 0 0;
+	z-index: 1;
+}
+
+div#dates2 {
+	text-align: center;
+	font-family: raleway;
+	float: right;
+	position: relative;
+}
+
+
+div#dates1 h1.Month {
+	padding: 0;
+	margin: -30px 0;
+	font-size: 73px;
+}
+
+div#dates1 h3.Days {
+	padding: 0;
+	margin: -51px 0 0 0;
+	font-size: 125px;
+}
+
+div#dates1 h1.Days {
+	font-size: 26px;
+	padding: 0;
+	margin: 0;
+}
+
+div#dates2 h1.Month {
+	padding: 0;
+	margin: -52px 0;
+	font-size: 73px;
+}
+
+div#dates2 h3.Days {
+	padding: 0;
+	margin: -64px 0 0 0;
+	font-size: 155px;
+}
+
+div#dates2 h1.Days {
+	font-size: 26px;
+	padding: 0;
+	margin: 0;
+}
+
+div#slash h3 {
+	font-size: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	padding: 0 10px;
+	line-height: 1.8;
+}
+
+ul li {
+	padding-right: 10px;
+	line-height: 1.6;
+}
+
+h3 {
+	padding: 5px 20px;
+	margin: 0;
+}
+
+div#header {
+	position: relative;
+}
+
+div#header a {
+	position: absolute;
+	right: 0;
+	top: 23px;
+	padding: 10px;
+	color: #006;
+}
+
+div#navigation {
+	background: #1D3557;
+	color: #A8DADC;
+	margin: -90px 20px -50px 0;
+	padding: 20px 0 20px 0;
+	width: 350px;
+	z-index: 1;
+    	position: fixed;
+	right: 5%;
+	border-radius: 30px;
+}
+
+div#navigation a {
+        color: #A8DADC;
+	text-decoration: none;
+	padding: 5px 15px 5px 30px;
+	width: 100%;
+	display: block;
+}
+
+div#navigation a:hover {
+        background-color: #A8DADC;	
+	color: #1D3557;
+	text-decoration: none;
+}
+
+div#navigation ul {
+	padding: 0;
+	margin: 30px 0 0 0;
+}
+
+div#navigation li {
+        list-style: none;
+	font-size: 23px;
+	font-family: lobster;
+	padding: 0;
+	margin: 0 0 0 -15px;
+}
+
+div#container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 0 0 2%;
+}
+
+div#wrapper {
+	margin: 50px 0 10px 0;
+	width: 95%;
+}
+
+div#content {		
+	padding: 30px 20% 50px 30px;
+	width: auto;
+	font-family: raleway;
+	font-size: 20px;
+	color: #1D3557;
+}	
+
+div#content p {
+	font-family: raleway;
+	font-size: 20px;
+	margin: 0;
+}
+
+
+div#content h4 {
+	font-family: raleway;
+	font-size: 20px;
+	padding: 10px;
+}
+
+div#navigation ul {
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+}
+
+div#extra {
+	float: left;
+	clear: left;
+	width: 300px;
+}	
+
+div#footer {
+	clear: both;
+	width: 100%;
+}
+
+div.section {
+	background-color: rgba(255,255,255,0.6);
+	padding: 30px 15% 30px 30px;
+	margin: 0 0 50px 0;
+	height: auto;
+}
+
+div.section h2{
+	text-align:center;
+}
+
+div#Organization {
+	height: auto;
+	overflow: auto;
+}
+
+div#Organization ul {
+	list-style-type: none;
+}
+
+div#Organization li {
+	float: left;
+	text-align: center;
+	display: block;
+	padding: 15px;
+	background: #FFF;
+	margin: 25px;
+	font-size: 20px;
+	box-shadow: 10px 10px 8px  rgba(0, 0, 0, 0.2);
+	font-family: hand;
+}
+
+div#Organization img {
+        display: block;
+        width: 118px;
+	margin: 0 0 15px 0;
+}
+
+div#Program {
+	height: auto;
+	overflow: auto;
+}
+
+div#Plenary {
+	height: auto;
+	overflow: auto;
+	
+}
+
+div#Plenary td {
+	vertical-align: top;
+}
+
+div#Invited {
+	height: auto;
+	overflow: auto;
+	margin: 70px 0 0 0;
+}
+
+div#Program ul {
+	list-style-type: none;
+}
+
+
+div.speaker {
+	text-align: center;
+	display: block;
+	padding: 15px;
+	background: #FFF;
+	margin: 25px;
+	font-size: 20px;
+	box-shadow: 10px 10px 8px  rgba(0, 0, 0, 0.2);
+	font-family: hand;
+	width: 200px;
+	float: left;
+}
+
+div#Program img {
+        display: block;
+        width: 200px;
+	margin: 0 0 15px 0;
+	float: left;
+}
+
+div.SpeakerProfile {
+	margin: 0px 0 0 0px;
+	height: auto;
+}
+
+
+div.sponsor {
+	width: 120px;
+}
+
+div#Sponsors {
+	height: auto;
+	overflow: auto;
+}
+
+div.PriorYears {
+	width: 120px;
+}
+
+div#Sponsors img {
+	padding: 10px;
+	background: #FFF;
+}
+
+div#Sponsors a {
+	color: #E63946;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+div#Sponsors a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+div#Practical a {
+	color: #E63946;
+	text-decoration: none;
+}
+
+div#Practical a:hover {
+	color: #a8dadc;
+	text-decoration: none;
+}
+
+div#Invited a {
+	color: #E63946;
+	text-decoration: none;
+}
+
+div#Invited a:hover {
+	color: #a8dadc;
+	text-decoration: none;
+}
+
+div#Sponsors ul {
+	list-style: none;
+	padding: 30px 0 60px 60px;
+}
+
+div#Sponsors li {
+	float: left;
+	display: block;
+	margin: 0 70px 30px 0;
+	background: #1D3557;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 8px  rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1200px) {
+
+h1.BigHeader1 {
+	font-family: lobster;
+	font-size: 120px;	
+	color: #E63946;
+	margin: 0;
+	padding: 60px 0 0 0;
+}
+
+h1.BigHeader2 {
+	font-family: lobster;
+	font-size: 120px;	
+	color: #E63946;
+	padding: 0 0 0 0;
+	margin: -70px 0 0 20px;
+}
+
+h2.Header {
+	font-family: raleway;
+	font-size: 30px;
+	margin: 0;
+	color: #1D3557;
+	text-align: center;
+}
+
+div#header {
+	width: 400px;
+	left: 50%;
+	margin: 0 0 0 -200px;
+}
+
+div#navigation {
+	background: #1D3557;
+	color: #A8DADC;
+	margin: 0;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	z-index: 1;
+    	position:fixed;
+	bottom: 0;
+	right: 0;
+	border-radius: 0;
+	height: 100px;
+}
+
+div#navigation ul {
+	background: #1D3557;
+	color: #A8DADC;
+	margin: 0 0 0 -250px;
+	padding: 0;
+	width: 100%;
+	z-index: 1;
+    	position:fixed;
+	bottom: 10px;
+	right: 0;
+	border-radius: 0;
+	list-style-type: none;
+  	overflow: hidden;
+	text-align: center;
+}
+
+div#navigation li{
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+div#navigation li a{
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+div#FirstNav {
+	width:100%;
+	position: relative;
+	display: block;	
+	float: left;
+}
+
+div#SecondNav {
+	width:100%;
+	position: relative;
+	display: block;	
+	float: left;
+}
+
+div#container {
+	width: 100%;
+	padding: 0 0 130px 0;
+	margin: 0;
+	min-width: 0;
+}
+
+div#dates {
+	margin: 0 -5%;
+	color: #1D3557;
+	position: fixed;
+	z-index: 1;
+	bottom: 135px;
+	padding: 0 20px 0 0;
+	background: #fff;
+	float: right;
+	text-align:center;
+	width: 100%;
+}
+
+
+div#dates1 {
+	text-align: center;
+	font-family: raleway;
+}
+
+div#slash {
+	text-align: center;
+	font-family: lobster;
+	color: #1D3557;
+	margin: 0;
+	z-index: 1;
+}
+
+div#dates2 {
+	text-align: center;
+	font-family: raleway;
+}
+
+
+
+div#dates1 h1.Month {
+	padding: 0;
+	margin: 23px 0 0 0;
+	font-size: 20px;
+	float:left;
+}
+
+div#dates1 h3.Days {
+	padding: 0;
+	margin: 0;
+	font-size: 45px;
+	float:left;
+}
+
+div#dates1 h1.Days {
+	font-size: 20px;
+	padding: 0;
+	margin: 23px 0 0 0;
+	float:left;
+}
+
+div#dates2 h1.Month {
+	padding: 0;
+	margin: 23px 0 0 0;
+	font-size: 20px;
+	float:left;
+}
+
+div#dates2 h3.Days {
+	padding: 0;
+	margin: 0;
+	font-size: 45px;
+	float:left;
+}
+
+div#dates2 h1.Days {
+	font-size: 20px;
+	padding: 0;
+	margin: 23px 0 0 0;
+	float: left;
+}
+
+div#slash h3{
+	font-size: 30px;
+	padding: 0;
+	margin: 15px 8px 0 8px;
+	float: left;
+}
+
+div#wrapper {
+	padding:0;
+	margin: 0;
+	width: 100%;
+	min-width: 0;
+}
+
+div#content {		
+	padding: 0;
+	margin: 120px 0 0 0;
+	width: 100%;
+	font-family: raleway;
+	font-size: 20px;
+	color: #1D3557;
+}
+
